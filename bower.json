@@ -2,12 +2,11 @@
   "name": "rs-webfonts",
   "description": "Just two webfonts packaged up for ease of inclusion.",
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/davieghost/rs-webfonts.git"
-  },
+  "ignore": [
+    "README.md",
+    ".gitignore",
+    ".DS_Store"
+  ],
   "main": [
     "css/rs-webfont.css",
     "scss/_rs-webfont.scss",
@@ -111,5 +110,11 @@
     "fonts/lato_webfont/lato-thinitalic-webfont.woff2",
     "fonts/lato_webfont/lato-thinitalic-webfont.ttf",
     "fonts/lato_webfont/lato-thinitalic-webfont.svg"
-  ]
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davieghost/rs-webfonts.git"
+  }
 }
