@@ -1,38 +1,16 @@
 {
   "name": "rs-webfonts",
-  // "private": true,
-  "dependencies": {
-    // "bootstrap-sass": "~3.3.5",
-    // "modernizr": "~2.8.3",
-    // "components-font-awesome": "~4.4.0"
-  },
-  "overrides": {
-    "bootstrap-sass": {
-      "main": [
-        "assets/stylesheets/_bootstrap.scss",
-        "assets/fonts/bootstrap/*",
-        "assets/javascripts/bootstrap.js"
-      ]
-    }
-  },
-  "devDependencies": {
-    "chai": "~3.2.0",
-    "mocha": "~2.2.5"
-  }
-}
-
-{
-  "name": "components-font-awesome",
   "description": "Just two webfonts packaged up for ease of inclusion.",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/components/font-awesome.git"
+    "url": "git://github.com/davieghost/rs-webfonts.git"
   },
   "main": [
-    //stylesheets below
     "css/rs-webfont.css",
     "scss/_rs-webfont.scss",
-    //amaranth below
     "fonts/amaranth_webfont/amaranth-bold-webfont.eot",
     "fonts/amaranth_webfont/amaranth-bold-webfont.woff",
     "fonts/amaranth_webfont/amaranth-bold-webfont.woff2",
@@ -53,7 +31,6 @@
     "fonts/amaranth_webfont/amaranth-regular-webfont.woff2",
     "fonts/amaranth_webfont/amaranth-regular-webfont.ttf",
     "fonts/amaranth_webfont/amaranth-regular-webfont.svg",
-    //lato below
     "fonts/lato_webfont/lato-black-webfont.eot",
     "fonts/lato_webfont/lato-black-webfont.woff",
     "fonts/lato_webfont/lato-black-webfont.woff2",
@@ -134,21 +111,5 @@
     "fonts/lato_webfont/lato-thinitalic-webfont.woff2",
     "fonts/lato_webfont/lato-thinitalic-webfont.ttf",
     "fonts/lato_webfont/lato-thinitalic-webfont.svg"
-  ],
-  "license": [
-    "MIT",
-    "OFL-1.1"
-  ],
-  "ignore": [],
-  "homepage": "https://www.google.com/fonts/specimen/Amaranth & https://www.google.com/fonts/specimen/Lato",
-  "version": "0.0.1",
-  "_release": "0.0.0",
-  "_resolution": {
-    "type": "version",
-    "tag": "0.0.0",
-    "commit": ""
-  },
-  "_source": "git://github.com/components/font-awesome.git",
-  "_target": "",
-  "_originalSource": "rs-webfonts"
+  ]
 }
