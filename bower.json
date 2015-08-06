@@ -1,0 +1,56 @@
+{
+  "name": "rs-webfonts",
+  // "private": true,
+  "dependencies": {
+    // "bootstrap-sass": "~3.3.5",
+    // "modernizr": "~2.8.3",
+    // "components-font-awesome": "~4.4.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  }
+}
+
+{
+  "name": "components-font-awesome",
+  "description": "Font Awesome, the iconic font designed for use with Twitter Bootstrap.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/components/font-awesome.git"
+  },
+  "main": [
+    "css/font-awesome.css",
+    "scss/font-awesome.scss",
+    "fonts/fontawesome-webfont.eot",
+    "fonts/fontawesome-webfont.woff",
+    "fonts/fontawesome-webfont.woff2",
+    "fonts/fontawesome-webfont.ttf",
+    "fonts/fontawesome-webfont.svg"
+  ],
+  "license": [
+    "MIT",
+    "OFL-1.1"
+  ],
+  "ignore": [],
+  "homepage": "https://www.google.com/fonts/specimen/Amaranth & https://www.google.com/fonts/specimen/Lato",
+  "version": "0.0.1",
+  "_release": "0.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.0",
+    "commit": ""
+  },
+  "_source": "git://github.com/components/font-awesome.git",
+  "_target": "",
+  "_originalSource": "rs-webfonts"
+}
